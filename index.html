@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Personal Homepage</title>
+    <title>GORDON MBONG | WDD 130</title>
 </head>
-<body>
-    <h1>Welcome to WDD 130.</h1>
-    <p>This page will become your homepage for the course. You will remove this text and replace it with your own personal details.</p>
 
-    <img src="images/salt-lake-temple.jpg" alt="The Salt Lake Temple.">
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wddd130/index.html">Rafting site Plan</a>
+            <a href="#">Personal Site Plan</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to My WDD 130 Course Homepage</h1>
+        <p>Hello! My name is GORDON MBONG and I'm excited to be learning web development through this course. This page
+            will
+            serve as my portal to all the projects and assignments I'll be creating throughout the semester.</p>
+
+        <img src="images/salt-lake-temple.jpg" alt="The Salt Lake Temple" width="300">
+
+        <section>
+            <h2>About Me</h2>
+            <p>I am a student at Brigham Young University - Idaho studying web development. I'm from Nigeria and
+                passionate about
+                learning and creating engaging and functional websites that provide great user experiences.</p>
+        </section>
+
+        <section>
+            <h2>Course Projects</h2>
+            <p>Throughout this course, I'll be working on several projects including a rafting website and a personal
+                website.
+                Check back regularly to see my progress!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MBONG, GORDON M. | WDD 130 | Brigham Young University - Idaho</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script>
+        // Display last modified date
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
 </body>
+
 </html>
